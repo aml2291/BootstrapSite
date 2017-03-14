@@ -1,0 +1,108 @@
+
+body {
+  background-image: url('Website Photos/stardust.png');
+  font-family: 'Raleway', sans-serif;
+  padding:0;
+
+}
+header
+{font-family: 'Raleway', sans-serif;}
+.container-header {
+  width: 100%;
+}
+
+.btn-main {font-family: 'Raleway', sans-serif;
+background-color: #4d6680;
+opacity: .9;
+margin: 20px;
+padding: 10px;
+color: #000000;
+}
+a.btn-main:hover {background-color: #394c60;}
+
+/*Parallax CSS*/
+.container-parallax {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+  .container-parallax section {
+  width: 100%;
+  height: 100vh;
+  flex: 1;
+  display: flex;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-color: #000;
+  font-family: 'Raleway', sans-serif;
+
+}
+.container-parallax section:nth-child(1) .image {
+  background-image: url('Website Photos/roya-ann-miller-110092.jpg');
+}
+.container-parallax section:nth-child(2) .image {
+  background-image: url('Website Photos/cup2.png');
+}
+.container-parallax section:nth-child(3) .image {
+  background-image: url('Website Photos/3v2.png');
+}
+.container-parallax section:nth-child(4) .image {
+  background-image: url('Website Photos/cedar2.png');
+}
+.container-parallax section:nth-child(5) .image {
+  background-image: url(https://images.unsplash.com/photo-1460804198264-011ca89eaa43?iq=100&fm=jpg&w=1000);
+}
+.container-parallax section:nth-child(6) .image {
+  background-image: url(https://images.unsplash.com/photo-1463123081488-789f998ac9c4?iq=100&fm=jpg&w=1000);
+}
+.container-parallax section .image {
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 500;
+  opacity: 0.4;
+}
+.container-parallax section .stuff {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: 100%;
+  width: 100%;
+  max-width: 70%;
+  justify-content: center;
+  text-align: center;
+  z-index: 1000;
+  color: #daeced;
+  margin: 0 auto;
+  font-size: 16px;
+  position: relative;
+}
+.container-parallax section .stuff h2 {
+  margin: 0px;
+  padding-bottom: 25px;
+}
+.container-parallax section .stuff:before, .container-parallax section .stuff:after {
+  width: 100%;
+  height: 1px;
+  display: block;
+  background-color: #d35400;
+  content: "";
+  margin: 30px 0;
+}
+
+
+/*Navigation CSS*/
+.navbar-inverse.navbar-mybar {
+  background-color: #000000;
+}
+/*Portfolio page*/
+.container-portfolio
+{
+  font-family: 'Raleway', sans-serif;
+  color: #daeced;
+  text-align: center;
+}
